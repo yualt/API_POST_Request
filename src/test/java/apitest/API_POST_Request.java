@@ -44,6 +44,9 @@ public class API_POST_Request {
         Assert.assertEquals(expBody.get("job"), actBody.get("job"));
         Assert.assertEquals(expBody.get("id"), actBody.get("id"));
 
+        //response.
+        response.prettyPrint();
+
 
 
 
